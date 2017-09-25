@@ -1,0 +1,35 @@
+{
+  "name": "now-domains-price",
+  "version": "0.0.0",
+  "description": "Check now domains price",
+  "main": "index.js",
+  "repository": "https://github.com/bukinoshita/now-domains-price.git",
+  "author": "Bu Kinoshita <bukinoshita@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "xo --quiet"
+  },
+  "keywords": [
+    "now",
+    "domain",
+    "domains",
+    "check",
+    "zeit",
+    "world"
+  ],
+  "dependencies": {
+    "fs-extra": "^4.0.2",
+    "node-fetch": "^1.7.3",
+    "now-domains-status": "^0.0.1",
+    "querystring": "^0.2.0"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^2.6.0",
+    "xo": "^0.18.2"
+  },
+  "xo": {
+    "extends": [
+      "prettier"
+    ]
+  }
+}
